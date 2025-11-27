@@ -2,7 +2,7 @@
 import { computed, defineProps, withDefaults } from 'vue';
 
 type Variant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'warning';
-type Size = 'small' | 'medium' | 'large';
+type Size = 'sm' | 'md' | 'lg';
 
 const props = withDefaults(
   defineProps<{
@@ -15,7 +15,7 @@ const props = withDefaults(
   }>(),
   {
     variant: 'primary',
-    size: 'medium',
+    size: 'md',
     disabled: false,
     loading: false,
     label: '',
@@ -53,6 +53,7 @@ const props = withDefaults(
   gap: .35rem;
   border-radius: 6px;
   font-weight: 600;
+  text-transform: uppercase;
   cursor: pointer;
   padding: .5rem;
   transition: background .2s ease, border-color .2s ease;

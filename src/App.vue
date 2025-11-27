@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ButtonShowcase from './components/dev/ButtonShowcase.vue';
+import IconButtonShowcase from './components/dev/IconButtonShowcase.vue';
 
 
 </script>
@@ -7,6 +8,7 @@ import ButtonShowcase from './components/dev/ButtonShowcase.vue';
 <template>
 
 <ButtonShowcase />
+<IconButtonShowcase />
 </template>
 
 <style scoped>
