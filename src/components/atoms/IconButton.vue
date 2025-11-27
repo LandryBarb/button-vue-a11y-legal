@@ -6,19 +6,27 @@ type Size = 'sm' | 'md' | 'lg';
 
 const props = withDefaults(
   defineProps<{
-   icon?: any; // will be a component
+   icon: any; // will be a component
     variant?: Variant;
     size?: Size;
     disabled?: boolean;
     loading?: boolean;
     label?: string; //optional visible label for accessibility
+    srLabel?: string; // optional screen reader only label
   }>(),
   {
     variant: 'primary',
     size: 'md',
     disabled: false,
     loading: false,
-    label: '',
+    srLabel: '',
+    
+  });
+
+  const accessibleLabel = computed(() => {
+    if (props.label) return props.label;
+    if (props.srLabel) return props.srLabel;
+    return undefined;
   });
 
   const classes = computed(() =>  [
@@ -34,7 +42,10 @@ const props = withDefaults(
   <button
     :class="classes"
     :disabled="disabled || loading"
+    :aria-disabled="disabled || loading"
+    :aria-busy="loading"
     type="button"
+    :aria-label=" accessibleLabel"
   >
    <!-- Loading spinner (placeholder) -->
     <span v-if="loading" class="spinner" aria-hidden="true"></span>
@@ -46,6 +57,17 @@ const props = withDefaults(
 </template>
 
 <style scoped>
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
 .icon-btn {
   display: inline-flex;
   align-items: center;

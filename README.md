@@ -1,6 +1,3 @@
-
-
-```md
 # 🎬  Vue 3 Entertainment Accessibility Component Suite  
 
 
