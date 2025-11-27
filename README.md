@@ -1,19 +1,19 @@
 
 
 ```md
-# 🎬 <Project Name> — Vue 3 Learning & Accessibility Practice  
-_A part of the Frontend Entertainment Engineering Learning Suite_
+# 🎬  Vue 3 Entertainment Accessibility Component Suite  
+
 
 ## 📌 Overview  
-This repository contains hands-on learning work guided by three coordinated tutors:
+This repository contains hands-on learning work guided by three coordinated expert tutors:
 
-1. **Vue 3 Technical Tutor** – Building a production-grade Vue 3 app  
-2. **Accessibility in Vue Tutor** – Implementing accessible component patterns  
-3. **WCAG 2.2 AAA + ADA Compliance Tutor** – Achieving legal-level conformance, documentation, and audits  
+1. **Vue 3 Technical Tutor** – Teaches Vue 3, TypeScript, Vite, Pinia, Router, Vitest, Cypress, and atomic design.  
+2. **Accessibility-in-Vue Tutor** – Ensures each component is accessible using semantic HTML, ARIA, keyboard support, and screen reader patterns.  
+3. **WCAG 2.2 AAA + ADA Compliance Tutor** – Ensures legal-level compliance, documentation, audits, and certification readiness.
 
-Each commit, component, and lesson contributes toward building an **entertainment-industry, enterprise-grade Vue application** while developing advanced accessibility and compliance skills.
+All lessons, components, and commits build toward a **production-grade entertainment-industry Vue application** and a **fully accessible component library**.
 
-
+---
 
 ## 🏗️ Tech Stack  
 - **Vue 3 (Composition API + TypeScript)**  
@@ -23,23 +23,25 @@ Each commit, component, and lesson contributes toward building an **entertainmen
 - **Vitest** (unit tests)  
 - **Cypress** (end-to-end tests)  
 - **Atomic Design Architecture**  
-- **WCAG 2.2 AAA / ARIA APG / Section 508 / ADA Title III**
+- **WCAG 2.2 AAA / ARIA APG / Section 508 / ADA Title III Compliance**
 
-
+---
 
 ## 🎯 Learning Goals  
-This repository helps me:
+This repository supports master-level learning in:
 
-- Learn Vue 3 through real-world implementation  
-- Build a complete accessible component library  
-- Apply WCAG 2.2 AAA success criteria in practical UI development  
-- Produce ADA-ready documentation for enterprise environments  
-- Practice test-driven development (Vitest + Cypress)  
-- Build components inspired by entertainment systems (streaming, ticketing, dashboards)
+- Building Vue 3 applications with real-world architecture  
+- Creating a reusable, entertainment-themed component library  
+- Applying accessibility deeply within components (practical, no theory dumps)  
+- Achieving WCAG 2.2 AAA alignment  
+- Generating ADA/508-compliant documentation & remediation papers  
+- Practicing TDD with Vitest + Cypress  
+- Understanding how accessibility and legal compliance shape frontend engineering
 
-
+---
 
 ## 📁 Project Structure (Atomic Design)
+
 ```
 
 src/
@@ -52,8 +54,12 @@ src/
 
 ```
 
-## 📚 Component Library Progress  
+Each folder evolves as the project progresses through the learning curriculum.
 
+---
+
+## 📚 Component Library Progress  
+_(Check these off as you complete them with the tutors.)_
 
 ### **Atoms**
 - [ ] Button  
@@ -80,115 +86,124 @@ src/
 - [ ] Stepper  
 - [ ] Carousel  
 
-### **Advanced / As Needed**
+### **Entertainment-Specific Advanced**
 - [ ] Seat Selector  
-- [ ] Media/Streaming Tile Grid  
-- [ ] Ticketing Flows  
+- [ ] Media / Streaming Tile Grid  
+- [ ] Ticketing Workflow Components  
 - [ ] Performer Dashboard Widgets  
+- [ ] Schedule / Calendar Interfaces  
 
 ---
 
 ## ♿ Accessibility & Compliance Tracking  
 
-### WCAG 2.2 AAA Mapping  
+### WCAG 2.2 AAA Success Criteria  
 Each component includes:
 
-- Success criteria met  
-- Roles / states / ARIA usage  
-- Keyboard support  
-- Screen reader flows  
+- Relevant success criteria  
+- Semantic structure  
+- ARIA roles, states, relationships  
+- Keyboard interaction  
+- Screen reader flow  
 - Focus management  
-- Error/invalid state handling  
-- Color/contrast notes  
+- High contrast & color requirements  
+- Motion/animation accessibility notes  
+- Error/invalid state expectations  
 
-### ADA / 508 Legal Compliance  
-- Notes on legal expectations  
-- Remediation documentation  
-- VPAT-style entries  
-- Testing requirements
+### ADA / Section 508 Legal Readiness  
+For each component:
 
-#### Component: BaseButton
-WCAG 2.2 AAA:
-✔ 1.4.6 Contrast (Enhanced) met with 7:1 ratio
-✔ 2.1.1 Keyboard operable
-✔ 2.2.4 Focus appearance enhanced
-✔ 2.5.5 Target size minimum met
-ADA Title III / Section 508:
+- Legal-risk considerations  
+- Remediation notes  
+- VPAT-style documentation  
+- Conformance statements  
+- Issues discovered during audits  
+- Steps taken to reach compliance  
+- Retesting summary  
 
-Interactive control is programmatically determinable
-
-State (disabled/loading) exposed
-
-No keyboard trap
-
-Compatible with assistive technologies
-
-
+---
 
 ## 🧪 Testing Status  
 
 ### Vitest (Unit Tests)
-- [ ] Component accessibility unit tests  
+- [ ] Accessibility units  
 - [ ] Store tests  
-- [ ] Utility tests  
+- [ ] Helper/utility tests  
 
 ### Cypress (E2E Tests)
-- [ ] Keyboard navigation E2E  
-- [ ] SR / aria-live expectations  
-- [ ] Real-world user flows  
+- [ ] Keyboard navigation path  
+- [ ] Screen reader behavior expectations  
+- [ ] Critical user flows (streaming, ticketing, dashboard)  
+- [ ] Regression tests after accessibility fixes  
 
-
+---
 
 ## 📖 Lessons & Commit Log  
-A chronological list of lessons completed:
+A simplified chronological log, optional:
 
+```
 
 Lesson 01 – Vue Foundations
-Lesson 02 – First Component (Button)
-Lesson 03 – Accessibility in Vue Basics
-Lesson 04 – WCAG Mapping for Button Component
-Lesson 05 – Writing the First Vitest Unit
-Lesson 06 – Building the Accordion (Vue + A11y + AAA Compliance)
-...
+Lesson 02 – Atomic Design Setup
+Lesson 03 – Button Component (Vue + A11y + AAA Compliance)
+Lesson 04 – Vitest Unit Coverage
+Lesson 05 – Accordion Component
+Lesson 06 – Tabs Component
+Lesson 07 – Modal/Dialog + Focus Trapping
+Lesson 08 – WCAG Audit Workshop
 
-````
+```
 
-Or link to a `/docs` folder.
+For detailed notes, link to a `/docs` folder or wiki.
 
+---
 
+## 🚀 Getting Started
 
-## 🚀 Getting Started  
+Install dependencies:
+
 ```bash
 npm install
-npm run dev
 ````
 
-Run tests:
+Run dev server:
+
+```bash
+npm run dev
+```
+
+Run unit tests:
 
 ```bash
 npm run test
+```
+
+Run E2E tests:
+
+```bash
 npm run test:e2e
 ```
 
+Build for production:
 
+```bash
+npm run build
+```
 
-## 📝 Notes / Reflections (Optional)
+---
 
-Personal notes, breakthroughs, or discoveries.
+## 📝 Notes / Reflections
 
+(Optional)
+Use this section for personal learning notes, insights, breakthroughs, or questions raised during tutor sessions.
 
+---
 
 ## 📄 License
 
-MIT (or your choice)
+MIT (or your preferred license)
 
-
-
-## 🎭 Credits
-
-Created as part of My **Frontend Entertainment Engineering Suite** learning system.
-
-```
+---
 
 
 
