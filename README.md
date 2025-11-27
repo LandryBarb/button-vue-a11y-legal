@@ -1,5 +1,4 @@
 
----
 
 ```md
 # 🎬 <Project Name> — Vue 3 Learning & Accessibility Practice  
@@ -14,7 +13,7 @@ This repository contains hands-on learning work guided by three coordinated tuto
 
 Each commit, component, and lesson contributes toward building an **entertainment-industry, enterprise-grade Vue application** while developing advanced accessibility and compliance skills.
 
----
+
 
 ## 🏗️ Tech Stack  
 - **Vue 3 (Composition API + TypeScript)**  
@@ -26,7 +25,7 @@ Each commit, component, and lesson contributes toward building an **entertainmen
 - **Atomic Design Architecture**  
 - **WCAG 2.2 AAA / ARIA APG / Section 508 / ADA Title III**
 
----
+
 
 ## 🎯 Learning Goals  
 This repository helps me:
@@ -38,7 +37,7 @@ This repository helps me:
 - Practice test-driven development (Vitest + Cypress)  
 - Build components inspired by entertainment systems (streaming, ticketing, dashboards)
 
----
+
 
 ## 📁 Project Structure (Atomic Design)
 ```
@@ -52,8 +51,6 @@ src/
 └── pages/
 
 ```
-
----
 
 ## 📚 Component Library Progress  
 
@@ -126,7 +123,7 @@ No keyboard trap
 
 Compatible with assistive technologies
 
----
+
 
 ## 🧪 Testing Status  
 
@@ -140,12 +137,11 @@ Compatible with assistive technologies
 - [ ] SR / aria-live expectations  
 - [ ] Real-world user flows  
 
----
+
 
 ## 📖 Lessons & Commit Log  
 A chronological list of lessons completed:
 
-```
 
 Lesson 01 – Vue Foundations
 Lesson 02 – First Component (Button)
@@ -159,7 +155,7 @@ Lesson 06 – Building the Accordion (Vue + A11y + AAA Compliance)
 
 Or link to a `/docs` folder.
 
----
+
 
 ## 🚀 Getting Started  
 ```bash
@@ -174,26 +170,25 @@ npm run test
 npm run test:e2e
 ```
 
----
+
 
 ## 📝 Notes / Reflections (Optional)
 
 Personal notes, breakthroughs, or discoveries.
 
----
+
 
 ## 📄 License
 
 MIT (or your choice)
 
----
+
 
 ## 🎭 Credits
 
-Created as part of Soliloquy Studios’ **Frontend Entertainment Engineering Suite** learning system.
+Created as part of My **Frontend Entertainment Engineering Suite** learning system.
 
 ```
 
----
 
 
