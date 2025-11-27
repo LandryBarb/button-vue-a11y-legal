@@ -13,6 +13,7 @@ const props = withDefaults(
     loading?: boolean;
     label?: string; //optional visible label for accessibility
     srLabel?: string; // optional screen reader only label
+    pressed?: boolean;
   }>(),
   {
     variant: 'primary',
@@ -46,6 +47,7 @@ const props = withDefaults(
     :aria-busy="loading"
     type="button"
     :aria-label=" accessibleLabel"
+    :aria-pressed="props.pressed ?? null"
   >
    <!-- Loading spinner (placeholder) -->
     <span v-if="loading" class="spinner" aria-hidden="true"></span>
