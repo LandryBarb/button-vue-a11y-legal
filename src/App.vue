@@ -1,13 +1,20 @@
 <script setup lang="ts">
-import BaseButton from './components/atoms/BaseButton.vue';
+import ButtonShowcase from './components/dev/ButtonShowcase.vue';
+
+
 </script>
 
 <template>
-  <BaseButton variant="primary" size="large" :loading="false">
-    Buy Tickets
-  </BaseButton>
+
+<ButtonShowcase />
 </template>
 
 <style scoped>
-
+section {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  gap: 1rem;
+  
+}
 </style>
